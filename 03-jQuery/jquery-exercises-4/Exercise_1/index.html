@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercise 4.1</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <!--Link to Bootstrap theme stylesheet-->
+  <link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+</head>
+<body>
+
+  <header>
+    <h4> GUESS A RANDOM NUMBER </h4>
+    <hr>
+    <p>Rock - Paper - Scissors - :</p>
+    <br>
+  </header>
+    
+    <hr>
+    <br>
+    <br>
+    
+    <div class="container my-5 py-5 bg-white text-success ">
+      <div class = "row d-flex justify-content-center">
+          <div class = "col-md-4">
+              <h1 class="win text-center"></h1>
+          </div>
+          <div class = "col-md-4">
+              <h1 class="lose text-center"></h1>
+          </div>
+      </div>  
+
+      <div class = "row d-flex justify-content-center">
+          <button type="button" class="reset btn btn-warning mb-5">RESET</button>
+      </div>
+
+      <div class = "row">
+          <div class = "col-md-12 d-flex justify-content-center ">
+              <ul class = "d-flex flex-row">
+                  <li class = "rock ml-3 mr-5">ROCK</li>
+                  <li class = "paper ml-3 mr-5">PAPER</li>
+                  <li class = "scissors ml-3 mr-5">SCISSORS</li>
+              </ul>
+          </div>
+      </div>
+
+      <div class = "row d-flex align-items-center flex-column ml-3 mr-3">
+          <button type="button" class="play btn btn-primary">PLAY</button>
+      </div>
+      <div class ="col-md-12 d-flex justify-content-between mt-5">
+          <h3 class = "pResults"></h3>
+          <h3 class = "cResults"></h3>
+      </div>
+      <div class = "col-md-12 d-flex justify-content-center">
+          <h1 class = "wl"></h1>
+      </div>
+      <hr>
+      
+  </div>
+
+
+  
+  <script src="jquery-2.2.4.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

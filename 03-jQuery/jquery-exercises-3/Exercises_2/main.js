@@ -1,6 +1,14 @@
 // Write your solution here
 
-$("#click-me").click(function(){
-    alert("This text appeared by clicking button");
-  });
+var count = 0;
+
+$("#clickAdd").click(function() {
+    count++;
+    $("#counter").html("My current count is: " + count);
+});
+
+$("#clickSub").click(function() {
+    count--;
+    $("#counter").html("My current count is: " + count);
+});
 
